@@ -1,0 +1,35 @@
+{
+    "learning_rate" : 0.001,
+    "batch_size" : 2,
+    "train_data_percentage" : 0.8,
+    "val_data_percentage" : 0.2,
+    "num_of_workers" : 10,
+    "num_of_epochs" : 500,
+    "max_desc_length" : 108,
+    "model_save_frequency_in_epochs" : 5,
+    "model_save_dir" : "checkpoints",
+    "n_layers": 4,
+    "complex_sentences_file": "/home/ubuntu/Hemanth/split_and_reshape/data/tokenized_complex_sentences1.pt",
+    "simple_sentences_file": "/home/ubuntu/Hemanth/split_and_reshape/data/tokenized_simple_sentences1.pt",
+    "train_samples": 100000,
+    "val_samples": 5000,
+
+    "emsize": 200,
+    "nhid": 200,
+    "nlayers": 2,
+    "nhead": 2,
+    "dropout": 0.2,
+
+    "embedding_size": 512,
+    "num_heads": 8,
+    "num_encoder_layers": 3,
+    "num_decoder_layers": 3,
+    "dropout": 1,
+    "forward_expansion": 4,
+    "src_pad_idx": 0, 
+    "max_len":58,
+
+    "pretrained_model": "checkpoints/split_and_rephrase#loss_0.000250525790033862#epoch_95#716985.pt"
+
+}
+    
